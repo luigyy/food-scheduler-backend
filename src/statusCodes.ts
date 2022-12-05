@@ -19,6 +19,10 @@ const codeFor = {
     code: 404,
     message: "Could not found user with the provided information",
   },
+  FIRST_MEAL_ERROR: {
+    code: 401,
+    message: "User already had first meal!",
+  },
 };
 
 export default codeFor;

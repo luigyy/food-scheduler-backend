@@ -1,15 +1,3 @@
-// /**
-// generates a random date
-// @returns random date between january 1st, 2012 and today.
-//  */
-// function randomDate(): Date {
-//   const start = new Date(2012, 0, 1);
-//   const end = new Date();
-//   return new Date(
-//     start.getTime() + Math.random() * (end.getTime() - start.getTime())
-//   );
-// }
-
 import FoodSchedule from "../interfaces/foodSchedule";
 /**
 @param someDate checks if someDate object is today
@@ -40,7 +28,9 @@ export const arrayOfTodays = (someArray: Array<Date>): Array<Date> => {
  * @param someArray array to loop over
  *
  * @returns an updated array with the field firstMeal set to true for those matching the date of today
+ * if firstMeal is already true, respond with false
  */
+
 export const updateFirstMeal = (
   someArray: Array<FoodSchedule>
 ): Array<FoodSchedule> => {
@@ -55,7 +45,6 @@ export const updateFirstMeal = (
     tempArray.push(foodSchedulerObject);
     return tempArray;
   }
-  console.log(someArray);
   const filteredArray = someArray.map((item): any => {
     if (isToday(item.day)) {
       //update first meal field
@@ -66,23 +55,35 @@ export const updateFirstMeal = (
       };
       return (item = updatedItem);
     }
+    return item;
   });
   return filteredArray;
 };
 
-//DEBUGGIN:
+/**
+ * @param someArray array to loop over
+ * returns true if user already had first meal, false otherwise
+ */
+export const checkFirstMeal = (someArray: FoodSchedule[]): boolean => {
+  //check if someArray is empty
+  if (someArray.length === 0) return false;
 
-// const randomDatesList = [];
-// //create list of random date
-// for (var i: number = 0; i < 9; i++) {
-//   var myDate: Date = randomDate();
-//   randomDatesList.push(myDate);
-// }
+  someArray.map((item): any => {
+    console.log(item.firstMeal);
+    if (isToday(item.day)) {
+      //check firstMeal field
+      if (item.firstMeal) {
+        return true;
+      }
+    }
+  });
+  return false;
+};
 
-// const today = new Date();
-
-// randomDatesList.push(today);
-
-// console.log(randomDatesList);
-
-// const filteredArray = randomDatesList.filter((date) => isToday(date));
+//DEBUG: updateArrayOfMeals
+// const debugArray: FoodSchedule[] = [
+//   { day: new Date(), firstMeal: false, secondMeal: false },
+//   { day: new Date("06/06/2002"), firstMeal: false, secondMeal: false },
+//   { day: new Date("06/09/1999"), firstMeal: false, secondMeal: false },
+// ];
+// //DEBUG: updateArrayOfMeals
