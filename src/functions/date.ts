@@ -62,21 +62,24 @@ export const updateFirstMeal = (
 
 /**
  * @param someArray array to loop over
- * returns true if user already had first meal, false otherwise
+ * returns true if user already have had first meal for today, false otherwise
  */
 export const checkFirstMeal = (someArray: FoodSchedule[]): boolean => {
   //check if someArray is empty
   if (someArray.length === 0) return false;
 
-  someArray.map((item): any => {
-    console.log(item.firstMeal);
+  //loop over the array
+  for (var i = 0; i < someArray.length; i++) {
+    //check for isToday
+    var item = someArray[i];
+
     if (isToday(item.day)) {
-      //check firstMeal field
       if (item.firstMeal) {
+        console.log(item);
         return true;
       }
     }
-  });
+  }
   return false;
 };
 
