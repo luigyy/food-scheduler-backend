@@ -45,6 +45,7 @@ export const postFirtMeal: ReqHandler = async (req, res, next) => {
   //get array of meals
   const arrayOfMeals = user.foodSchedule!;
   const updatedArrayOfMeals = updateFirstMeal(arrayOfMeals);
+
   console.log(updatedArrayOfMeals);
   try {
     await User.updateOne({ email }, { foodSchedule: updatedArrayOfMeals });

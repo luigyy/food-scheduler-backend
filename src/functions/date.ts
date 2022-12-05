@@ -55,7 +55,7 @@ export const updateFirstMeal = (
     tempArray.push(foodSchedulerObject);
     return tempArray;
   }
-
+  console.log(someArray);
   const filteredArray = someArray.map((item): any => {
     if (isToday(item.day)) {
       //update first meal field
@@ -67,7 +67,6 @@ export const updateFirstMeal = (
       return (item = updatedItem);
     }
   });
-  console.log(filteredArray);
   return filteredArray;
 };
 
