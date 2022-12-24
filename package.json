@@ -8,11 +8,16 @@
     "dev": "nodemon --watch './src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec 'ts-node' src/index.ts",
     "start": "npm run build && node dist/index.js"
   },
-  "keywords": ["API", "typescript", "express"],
+  "keywords": [
+    "API",
+    "typescript",
+    "express"
+  ],
   "author": "@luigy0606",
   "license": "MIT",
   "dependencies": {
     "@types/bcrypt": "^3.0.1",
+    "@types/cors": "^2.8.13",
     "@types/jsonwebtoken": "^8.5.1",
     "@types/memory-cache": "^0.2.1",
     "@types/node-cache": "^4.2.5",

@@ -13,6 +13,7 @@ import mongoConnect from "./config/mongoConnect";
 import morgan from "./config/morgan";
 import checkRole from "./middleware/checkRole";
 import checkToken from "./middleware/checkToken";
+import cors from 'cors'
 
 const app: express.Application = express();
 
@@ -26,6 +27,7 @@ app.set("json spaces", 2);
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(morgan);
+app.use(cors())
 
 //routes middleware
 app.use("/", authenticationRoutes);

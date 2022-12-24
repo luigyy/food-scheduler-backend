@@ -27,7 +27,7 @@ export const postRegister: ReqHandler = async (req, res, next) => {
 
   //check if all the data is provided
   if (!(name && lastName && email)) {
-    const fieldsRequired = ["name", "lastName", "email", "password"];
+    const fieldsRequired = ["name", "lastName", "email"];
     return next(new HttpError(MISSING_DATA, fieldsRequired));
   }
 
