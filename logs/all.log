@@ -1349,3 +1349,73 @@
 2022-12-24 01:20:50 [32minfo[39m: [32mSuccessfully connected to database[39m
 2022-12-24 01:21:14 [32minfo[39m: [32mListening on port 5000[39m
 2022-12-24 01:21:14 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-24 12:05:22 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-24 12:05:22 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-24 12:05:32 [35mhttp[39m: [35mGET / 404 75 - 4.746 ms[39m
+[35m[39m
+2022-12-24 12:05:33 [35mhttp[39m: [35mGET /favicon.ico 404 75 - 0.518 ms[39m
+[35m[39m
+2022-12-24 12:23:46 [35mhttp[39m: [35mGET /messages/ 404 75 - 0.321 ms[39m
+[35m[39m
+2022-12-24 12:23:53 [35mhttp[39m: [35mGET /test 404 75 - 0.735 ms[39m
+[35m[39m
+2022-12-24 12:24:20 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-24 12:24:20 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-24 12:24:38 [35mhttp[39m: [35mPOST /firstmeal 401 162 - 2.490 ms[39m
+[35m[39m
+2022-12-24 12:25:09 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-24 12:25:09 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-24 12:25:36 [35mhttp[39m: [35mGET /getuserbyname/luigy 304 - - 843.001 ms[39m
+[35m[39m
+2022-12-24 12:25:38 [35mhttp[39m: [35mGET /getuserbyid/63a508137d2c6cc4eed00599 304 - - 143.626 ms[39m
+[35m[39m
+2022-12-24 12:25:38 [35mhttp[39m: [35mGET /getuserbyid/63a508137d2c6cc4eed00599 304 - - 6.179 ms[39m
+[35m[39m
+2022-12-24 12:25:42 [35mhttp[39m: [35mGET /getuserbyname/undefined 404 107 - 7.988 ms[39m
+[35m[39m
+2022-12-24 12:26:29 [35mhttp[39m: [35mGET /getuserbyname/luigy 404 107 - 15.847 ms[39m
+[35m[39m
+2022-12-24 12:27:20 [35mhttp[39m: [35mOPTIONS /register 204 0 - 1.953 ms[39m
+[35m[39m
+2022-12-24 12:27:22 [35mhttp[39m: [35mPOST /register 200 85 - 341.300 ms[39m
+[35m[39m
+2022-12-24 12:27:25 [35mhttp[39m: [35mPOST /register 401 79 - 10.038 ms[39m
+[35m[39m
+2022-12-24 12:27:32 [35mhttp[39m: [35mGET /getuserbyname/luigy 200 323 - 8.202 ms[39m
+[35m[39m
+2022-12-24 12:27:34 [35mhttp[39m: [35mGET /getuserbyid/63a7448aad7ceb26d636d9f4 200 341 - 1.556 ms[39m
+[35m[39m
+2022-12-24 12:27:34 [35mhttp[39m: [35mGET /getuserbyid/63a7448aad7ceb26d636d9f4 304 - - 4.463 ms[39m
+[35m[39m
+2022-12-24 12:28:01 [35mhttp[39m: [35mPOST /firstmeal 200 65 - 6.073 ms[39m
+[35m[39m
+2022-12-24 12:28:27 [35mhttp[39m: [35mPOST /firstmeal 401 85 - 2.127 ms[39m
+[35m[39m
+2022-12-24 12:28:51 [35mhttp[39m: [35mPOST /secondmeal 200 65 - 2.965 ms[39m
+[35m[39m
+2022-12-24 12:28:53 [35mhttp[39m: [35mPOST /secondmeal 401 85 - 1.438 ms[39m
+[35m[39m
+2022-12-24 12:29:19 [35mhttp[39m: [35mPOST /secondmeal 401 85 - 1.846 ms[39m
+[35m[39m
+2022-12-24 12:29:41 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-24 12:29:41 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-24 12:29:46 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-24 12:29:46 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-24 12:29:47 [35mhttp[39m: [35mPOST /secondmeal 401 91 - 17.954 ms[39m
+[35m[39m
+2022-12-24 12:31:26 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-24 12:31:26 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-24 12:31:41 [35mhttp[39m: [35mOPTIONS /register 204 0 - 4.859 ms[39m
+[35m[39m
+2022-12-24 12:31:42 [35mhttp[39m: [35mPOST /register 200 85 - 796.657 ms[39m
+[35m[39m
+2022-12-24 12:31:47 [35mhttp[39m: [35mGET /getuserbyname/luigy 200 323 - 20.961 ms[39m
+[35m[39m
+2022-12-24 12:32:07 [35mhttp[39m: [35mPOST /firstmeal 200 65 - 6.317 ms[39m
+[35m[39m
+2022-12-24 12:32:09 [35mhttp[39m: [35mPOST /firstmeal 401 90 - 2.031 ms[39m
+[35m[39m
+2022-12-24 12:32:28 [35mhttp[39m: [35mPOST /secondmeal 200 65 - 4.694 ms[39m
+[35m[39m
+2022-12-24 12:32:30 [35mhttp[39m: [35mPOST /secondmeal 401 91 - 1.570 ms[39m
+[35m[39m

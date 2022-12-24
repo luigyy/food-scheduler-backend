@@ -21,6 +21,7 @@ const {
   MISSING_DATA,
   //   EMAIL_UNAVAILABLE,
   //   INVALID_PASSWORD,
+  SECOND_MEAL_ERROR,
   FIRST_MEAL_ERROR,
   INVALID_EMAIL,
   SUCCESS,
@@ -113,12 +114,12 @@ export const postSecondMeal: ReqHandler = async (req, res, next) => {
   if (checkSecondMeal(arrayOfMeals)) {
     const response: ResponseInterface = {
       error: true,
-      statusCode: FIRST_MEAL_ERROR.code,
-      message: FIRST_MEAL_ERROR.message,
+      statusCode: SECOND_MEAL_ERROR.code,
+      message: SECOND_MEAL_ERROR.message,
     };
-    return res.status(FIRST_MEAL_ERROR.code).json(response);
+    return res.status(SECOND_MEAL_ERROR.code).json(response);
   }
-  //set firstMeal = true for items with date of today
+  //set second = true for items with date of today
   const updatedArrayOfMeals = updateSecondMeal(arrayOfMeals);
 
   //update new array of meals to db

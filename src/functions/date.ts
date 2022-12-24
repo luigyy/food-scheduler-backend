@@ -80,7 +80,7 @@ export const updateSecondMeal = (
       //update first meal field
       const updatedItem: FoodSchedule = {
         day: item.day,
-        firstMeal: item.secondMeal,
+        firstMeal: item.firstMeal,
         secondMeal: true,
       };
       return (item = updatedItem);
