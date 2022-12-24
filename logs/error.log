@@ -12,3 +12,9 @@
 2022-12-22 16:44:01 [31merror[39m: [31mError when saving user to database[39m
 2022-12-22 16:44:02 [31merror[39m: [31mUser validation failed: email: Please fill a valid email address[39m
 2022-12-22 16:44:02 [31merror[39m: [31mError when saving user to database[39m
+2022-12-24 13:55:18 [31merror[39m: [31mError when retrieving user from database[39m
+2022-12-24 13:56:16 [31merror[39m: [31mError when retrieving user from database[39m
+2022-12-24 13:57:38 [31merror[39m: [31mError when retrieving user from database[39m
+2022-12-24 13:59:41 [31merror[39m: [31mError when retrieving user from database[39m
+2022-12-24 14:02:58 [31merror[39m: [31mError when retrieving user from database[39m
+2022-12-24 14:04:10 [31merror[39m: [31mError when retrieving user from database[39m

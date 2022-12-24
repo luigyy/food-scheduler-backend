@@ -5,6 +5,7 @@ const codeFor = {
   },
   EMAIL_UNAVAILABLE: { code: 401, message: "Email is already taken" },
   INVALID_PASSWORD: { code: 401, message: "Invalid password" },
+  INVALID_DATA: { code: 401, message: "Invalid Data" },
   INVALID_EMAIL: { code: 401, message: "Email is not linked to any account" },
   SUCCESS: { code: 200, message: "Success" },
   SERVER_ERROR: { code: 503, message: "Server error" },

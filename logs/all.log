@@ -1419,3 +1419,59 @@
 [35m[39m
 2022-12-24 12:32:30 [35mhttp[39m: [35mPOST /secondmeal 401 91 - 1.570 ms[39m
 [35m[39m
+2022-12-24 13:52:21 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-24 13:52:21 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-24 13:53:35 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-24 13:53:35 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-24 13:54:07 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-24 13:54:07 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-24 13:54:17 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-24 13:54:17 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-24 13:54:24 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-24 13:54:24 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-24 13:54:30 [35mhttp[39m: [35mPOST /secondmeal 401 139 - 2.558 ms[39m
+[35m[39m
+2022-12-24 13:55:06 [35mhttp[39m: [35mPOST /secondmeal 401 139 - 0.675 ms[39m
+[35m[39m
+2022-12-24 13:55:13 [35mhttp[39m: [35mPOST /secondmeal 401 91 - 15.570 ms[39m
+[35m[39m
+2022-12-24 13:55:18 [31merror[39m: [31mError when retrieving user from database[39m
+2022-12-24 13:55:18 [35mhttp[39m: [35mPOST /secondmeal 503 69 - 1.609 ms[39m
+[35m[39m
+2022-12-24 13:56:12 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-24 13:56:12 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-24 13:56:16 [31merror[39m: [31mError when retrieving user from database[39m
+2022-12-24 13:56:16 [35mhttp[39m: [35mPOST /secondmeal 503 69 - 6.672 ms[39m
+[35m[39m
+2022-12-24 13:57:16 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-24 13:57:16 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-24 13:57:36 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-24 13:57:36 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-24 13:57:38 [31merror[39m: [31mError when retrieving user from database[39m
+2022-12-24 13:57:38 [35mhttp[39m: [35mPOST /secondmeal 503 69 - 11.004 ms[39m
+[35m[39m
+2022-12-24 13:59:41 [31merror[39m: [31mError when retrieving user from database[39m
+2022-12-24 13:59:41 [35mhttp[39m: [35mPOST /secondmeal 503 69 - 2.085 ms[39m
+[35m[39m
+2022-12-24 14:00:26 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-24 14:00:26 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-24 14:02:21 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-24 14:02:21 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-24 14:02:50 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-24 14:02:50 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-24 14:02:54 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-24 14:02:54 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-24 14:02:58 [31merror[39m: [31mError when retrieving user from database[39m
+2022-12-24 14:02:58 [35mhttp[39m: [35mPOST /secondmeal 401 69 - 8.875 ms[39m
+[35m[39m
+2022-12-24 14:03:54 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-24 14:03:54 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-24 14:04:02 [35mhttp[39m: [35mPOST /secondmeal 401 139 - 1.787 ms[39m
+[35m[39m
+2022-12-24 14:04:10 [31merror[39m: [31mError when retrieving user from database[39m
+2022-12-24 14:04:10 [35mhttp[39m: [35mPOST /secondmeal 401 69 - 5.771 ms[39m
+[35m[39m
+2022-12-24 14:04:27 [35mhttp[39m: [35mPOST /secondmeal 401 91 - 11.533 ms[39m
+[35m[39m
+2022-12-24 14:06:36 [35mhttp[39m: [35mPOST /firstmeal 401 90 - 3.456 ms[39m
+[35m[39m
