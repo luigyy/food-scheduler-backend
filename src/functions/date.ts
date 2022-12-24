@@ -60,6 +60,58 @@ export const updateFirstMeal = (
   return filteredArray;
 };
 
+//
+export const updateSecondMeal = (
+  someArray: Array<FoodSchedule>
+): Array<FoodSchedule> => {
+  //
+  if (someArray.length === 0) {
+    var tempArray = [];
+    const foodSchedulerObject: FoodSchedule = {
+      day: new Date(),
+      firstMeal: false,
+      secondMeal: true,
+    };
+    tempArray.push(foodSchedulerObject);
+    return tempArray;
+  }
+  const filteredArray = someArray.map((item): any => {
+    if (isToday(item.day)) {
+      //update first meal field
+      const updatedItem: FoodSchedule = {
+        day: item.day,
+        firstMeal: item.firstMeal,
+        secondMeal: true,
+      };
+      return (item = updatedItem);
+    }
+    return item;
+  });
+  return filteredArray;
+};
+
+/**
+ * @param someArray array to loop over
+ * returns true if user already have had first meal for today, false otherwise
+ */
+export const checkSecondMeal = (someArray: FoodSchedule[]): boolean => {
+  //check if someArray is empty
+  if (someArray.length === 0) return false;
+
+  //loop over the array
+  for (var i = 0; i < someArray.length; i++) {
+    //check for isToday
+    var item = someArray[i];
+
+    if (isToday(item.day)) {
+      if (item.secondMeal) {
+        return true;
+      }
+    }
+  }
+  return false;
+};
+
 /**
  * @param someArray array to loop over
  * returns true if user already have had first meal for today, false otherwise
@@ -75,7 +127,6 @@ export const checkFirstMeal = (someArray: FoodSchedule[]): boolean => {
 
     if (isToday(item.day)) {
       if (item.firstMeal) {
-        console.log(item);
         return true;
       }
     }

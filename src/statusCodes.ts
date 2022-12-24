@@ -1,8 +1,7 @@
 const codeFor = {
   MISSING_DATA: {
     code: 401,
-    message:
-      "Missing data! Make sure all fields are given, beware of the typos!",
+    message: "Missing data! Make sure all fields are given.",
   },
   EMAIL_UNAVAILABLE: { code: 401, message: "Email is already taken" },
   INVALID_PASSWORD: { code: 401, message: "Invalid password" },
@@ -21,7 +20,11 @@ const codeFor = {
   },
   FIRST_MEAL_ERROR: {
     code: 401,
-    message: "User already had first meal!",
+    message: "User already have had first meal!",
+  },
+  SECOND_MEAL_ERROR: {
+    code: 401,
+    message: "User already have had second meal!",
   },
 };
 
