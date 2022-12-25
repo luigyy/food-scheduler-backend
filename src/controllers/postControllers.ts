@@ -25,6 +25,7 @@ const {
 export const postFirtMeal: ReqHandler = async (req, res, next) => {
   //TODO: make this endpoint only work on firstMeal interval of time (example: 12:00 hr <= time <= 13:00 hr)
 
+  //TODO: check _id matches ObjectId length
   const { _id } = req.body;
 
   if (!_id) {
@@ -49,6 +50,7 @@ export const postFirtMeal: ReqHandler = async (req, res, next) => {
   const arrayOfMeals = user.foodSchedule!;
 
   //check if user already have had the first meal
+  console.log(checkFirstMeal(arrayOfMeals))
   if (checkFirstMeal(arrayOfMeals)) {
     const response: ResponseInterface = {
       error: true,

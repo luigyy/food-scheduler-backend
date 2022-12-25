@@ -13,6 +13,24 @@ export const isToday = (someDate: Date): boolean => {
 };
 
 /**
+ * checks if theres an entry for today
+ *
+ */
+const entryForToday = (someArray: FoodSchedule[]): boolean => {
+
+  //loop over the array
+  for (var i=0; i < someArray.length; i++) {
+    const item = someArray[i];
+    if (isToday(item.day)) {
+      return true;
+    }
+  }
+  return false;
+  
+}
+
+
+/**
  *
  * @param someArray array to check for dates that match the current date of today
  * @returns an array of dates that match todays date
@@ -34,7 +52,7 @@ export const arrayOfTodays = (someArray: Array<Date>): Array<Date> => {
 export const updateFirstMeal = (
   someArray: Array<FoodSchedule>
 ): Array<FoodSchedule> => {
-  //
+  //check if empty
   if (someArray.length === 0) {
     var tempArray = [];
     const foodSchedulerObject: FoodSchedule = {
@@ -45,6 +63,18 @@ export const updateFirstMeal = (
     tempArray.push(foodSchedulerObject);
     return tempArray;
   }
+
+  //check if entry for today
+  if (!entryForToday(someArray)) {
+    //no entry, create one
+    const foodSchedulerObject: FoodSchedule = {
+      day: new Date(),
+      firstMeal: false,
+      secondMeal: false,
+    }
+    someArray.push(foodSchedulerObject)
+  }
+
   const filteredArray = someArray.map((item): any => {
     if (isToday(item.day)) {
       //update first meal field
@@ -64,7 +94,7 @@ export const updateFirstMeal = (
 export const updateSecondMeal = (
   someArray: Array<FoodSchedule>
 ): Array<FoodSchedule> => {
-  //
+  //check if empty
   if (someArray.length === 0) {
     var tempArray = [];
     const foodSchedulerObject: FoodSchedule = {
@@ -75,9 +105,20 @@ export const updateSecondMeal = (
     tempArray.push(foodSchedulerObject);
     return tempArray;
   }
+  //check if entry for today
+  if (!entryForToday(someArray)) {
+    //no entry, create one
+    const foodSchedulerObject: FoodSchedule = {
+      day: new Date(),
+      firstMeal: false,
+      secondMeal: false,
+    }
+    someArray.push(foodSchedulerObject)
+  }
+
   const filteredArray = someArray.map((item): any => {
     if (isToday(item.day)) {
-      //update first meal field
+      //update second meal field
       const updatedItem: FoodSchedule = {
         day: item.day,
         firstMeal: item.firstMeal,
