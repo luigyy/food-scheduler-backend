@@ -1815,3 +1815,62 @@
 [35m[39m
 2022-12-25 17:42:30 [32minfo[39m: [32mListening on port 5000[39m
 2022-12-25 17:42:30 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-25 17:43:26 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-25 17:43:26 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-25 17:44:54 [35mhttp[39m: [35mOPTIONS /firstmeal 204 0 - 1.713 ms[39m
+[35m[39m
+2022-12-25 17:44:55 [35mhttp[39m: [35mPOST /firstmeal 401 90 - 18.420 ms[39m
+[35m[39m
+2022-12-25 17:46:58 [35mhttp[39m: [35mOPTIONS /firstmeal 204 0 - 0.344 ms[39m
+[35m[39m
+2022-12-25 17:46:58 [35mhttp[39m: [35mPOST /firstmeal 401 90 - 4.177 ms[39m
+[35m[39m
+2022-12-25 17:47:15 [35mhttp[39m: [35mOPTIONS /firstmeal 204 0 - 0.117 ms[39m
+[35m[39m
+2022-12-25 17:47:15 [35mhttp[39m: [35mPOST /firstmeal 401 90 - 1.880 ms[39m
+[35m[39m
+2022-12-25 17:47:53 [35mhttp[39m: [35mOPTIONS /register 204 0 - 0.490 ms[39m
+[35m[39m
+2022-12-25 17:47:54 [35mhttp[39m: [35mPOST /register 200 85 - 654.409 ms[39m
+[35m[39m
+2022-12-25 17:49:29 [35mhttp[39m: [35mOPTIONS /firstmeal 204 0 - 0.199 ms[39m
+[35m[39m
+2022-12-25 17:49:29 [35mhttp[39m: [35mPOST /firstmeal 200 65 - 11.068 ms[39m
+[35m[39m
+2022-12-25 17:50:42 [35mhttp[39m: [35mOPTIONS /firstmeal 204 0 - 0.210 ms[39m
+[35m[39m
+2022-12-25 17:50:42 [35mhttp[39m: [35mPOST /firstmeal 401 90 - 4.529 ms[39m
+[35m[39m
+2022-12-25 17:50:46 [35mhttp[39m: [35mPOST /firstmeal 401 90 - 2.014 ms[39m
+[35m[39m
+2022-12-25 17:50:49 [35mhttp[39m: [35mOPTIONS /firstmeal 204 0 - 0.180 ms[39m
+[35m[39m
+2022-12-25 17:50:49 [35mhttp[39m: [35mPOST /firstmeal 401 90 - 3.411 ms[39m
+[35m[39m
+2022-12-25 17:50:53 [35mhttp[39m: [35mOPTIONS /secondmeal 204 0 - 0.215 ms[39m
+[35m[39m
+2022-12-25 17:50:53 [35mhttp[39m: [35mPOST /secondmeal 200 65 - 5.796 ms[39m
+[35m[39m
+2022-12-25 17:50:57 [35mhttp[39m: [35mPOST /secondmeal 401 91 - 2.344 ms[39m
+[35m[39m
+2022-12-25 17:51:00 [35mhttp[39m: [35mOPTIONS /secondmeal 204 0 - 0.138 ms[39m
+[35m[39m
+2022-12-25 17:51:00 [35mhttp[39m: [35mPOST /secondmeal 401 91 - 1.579 ms[39m
+[35m[39m
+2022-12-25 17:51:04 [35mhttp[39m: [35mPOST /secondmeal 401 91 - 2.475 ms[39m
+[35m[39m
+2022-12-25 17:51:07 [35mhttp[39m: [35mOPTIONS /secondmeal 204 0 - 0.221 ms[39m
+[35m[39m
+2022-12-25 17:51:07 [35mhttp[39m: [35mPOST /secondmeal 401 91 - 2.484 ms[39m
+[35m[39m
+2022-12-25 17:54:20 [32minfo[39m: [32mListening on port 5000[39m
+2022-12-25 17:54:20 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-12-25 20:43:12 [33mwarn[39m: [33mMongoose default connection disconnected[39m
+2023-01-05 14:43:08 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-05 14:43:08 [32minfo[39m: [32mSuccessfully connected to database[39m
+2023-01-05 14:44:07 [33mwarn[39m: [33mMongoose default connection disconnected[39m
+2023-01-05 14:45:45 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-05 14:45:45 [32minfo[39m: [32mSuccessfully connected to database[39m
+2023-01-05 14:46:07 [33mwarn[39m: [33mMongoose default connection disconnected[39m
+2023-01-05 14:46:14 [32minfo[39m: [32mListening on port 5000[39m
+2023-01-05 14:46:14 [32minfo[39m: [32mSuccessfully connected to database[39m
