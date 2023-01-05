@@ -4,7 +4,7 @@ const errorHandler = (err, _, res, __) => {
     const response = {
         statusCode: err.statusCode,
         error: true,
-        message: err.message
+        message: err.message,
     };
     if (err.fieldsRequired)
         response.fieldsRequired = err.fieldsRequired;
